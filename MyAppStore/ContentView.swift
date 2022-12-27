@@ -9,22 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     
+    var model: ItemModel
+    
     var body: some View {
         
         VStack {
             
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
+            Image(systemName: model.image)
             
-            Text("Hello, world!")
+            Text(model.name)
+            
+            Text(model.description)
+            
+            Text(String(model.price))
         }
-        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(model: iMac)
     }
 }
