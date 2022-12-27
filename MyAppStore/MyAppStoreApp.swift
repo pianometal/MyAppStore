@@ -11,7 +11,7 @@ import SwiftUI
 struct MyAppStoreApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(model: macBook)
+            ItemListView()
         }
     }
 }

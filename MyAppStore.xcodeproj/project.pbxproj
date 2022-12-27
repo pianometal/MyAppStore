@@ -10,7 +10,6 @@
 		E60C5260295B80B90012E663 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60C525F295B80B90012E663 /* ItemListView.swift */; };
 		E67E5DF7295B78C400204CC8 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E5DF6295B78C400204CC8 /* ItemModel.swift */; };
 		E69E3D33295B750A008326B2 /* MyAppStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69E3D32295B750A008326B2 /* MyAppStoreApp.swift */; };
-		E69E3D35295B750A008326B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69E3D34295B750A008326B2 /* ContentView.swift */; };
 		E69E3D37295B750C008326B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E69E3D36295B750C008326B2 /* Assets.xcassets */; };
 		E69E3D3A295B750C008326B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E69E3D39295B750C008326B2 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		E67E5DF6295B78C400204CC8 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		E69E3D2F295B750A008326B2 /* MyAppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E69E3D32295B750A008326B2 /* MyAppStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppStoreApp.swift; sourceTree = "<group>"; };
-		E69E3D34295B750A008326B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E69E3D36295B750C008326B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E69E3D39295B750C008326B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				E69E3D32295B750A008326B2 /* MyAppStoreApp.swift */,
-				E69E3D34295B750A008326B2 /* ContentView.swift */,
 				E60C525F295B80B90012E663 /* ItemListView.swift */,
 				E67E5DF6295B78C400204CC8 /* ItemModel.swift */,
 				E69E3D36295B750C008326B2 /* Assets.xcassets */,
@@ -144,7 +141,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E67E5DF7295B78C400204CC8 /* ItemModel.swift in Sources */,
-				E69E3D35295B750A008326B2 /* ContentView.swift in Sources */,
 				E69E3D33295B750A008326B2 /* MyAppStoreApp.swift in Sources */,
 				E60C5260295B80B90012E663 /* ItemListView.swift in Sources */,
 			);
