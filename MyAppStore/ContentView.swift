@@ -16,18 +16,26 @@ struct ContentView: View {
         VStack {
             
             Image(systemName: model.image)
+                .resizable()
+                .scaledToFit()
+                .padding(.horizontal)
             
             Text(model.name)
+                .font(.largeTitle)
+                .bold()
             
             Text(model.description)
+                .foregroundColor(.gray)
             
             Text(String(model.price))
+                .font(.title)
+                .foregroundColor(.green)
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(model: iMac)
+        ContentView(model: macBook)
     }
 }

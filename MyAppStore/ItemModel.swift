@@ -8,7 +8,11 @@
 import Foundation
 
 /// Blueprint `Model` for an Item in our shop
-struct ItemModel {
+struct ItemModel: Identifiable {
+    
+    /// Create a `UUID` automatically as soon as it's made
+    var id = UUID()
+    
     
     /// Item Name
     var name: String
@@ -41,3 +45,8 @@ let iMac = ItemModel(
     image: "desktopcomputer",
     description: "This is a brand new iMac. It's super awesome and stuff. You should totally buy it, even though it will cost your first and second born. TAKE THEM!!",
     price: 1999.99)
+
+
+// MARK: Array of Items
+
+let itemArray = [macBook, iMac]
